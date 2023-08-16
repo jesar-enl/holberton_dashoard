@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Jesse Kyambadde | Web developer</title>
+
+  <link rel="stylesheet" href="assets/styles/styles.css" />
+  <link rel="stylesheet" href="assets/styles/animate.css">
+
+  <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png" type="image/png" sizes="180x180">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav>
+    <h1>Jesse Kyambadde</h1>
+    <ul class="navigation">
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <button class="burger-menu" id="burger-menu">
+      <i class="bars">
+        <img src="assets/icons/images.png" width="30" alt="">
+      </i>
+    </button>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="about">
+    <img src="assets/images/Jesse (2).jpg" alt="Jesse" loading="lazy" class="hero-img">
+    <div class="bio animate__animated animate__shakeX">
+      <h2 class="bio-title">About Me</h2>
+      <p class="bio-text">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt aut fuga hic eligendi saepe vitae eum libero
+        impedit itaque mollitia quasi sunt perspiciatis, quae quis minima placeat vel doloribus non.
+      </p>
+    </div>
+  </section>
+
+  <!-- More about -->
+  <section class="more-about">
+    <h2>More About Me</h2>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur itaque accusantium soluta nulla aperiam dolores
+      quae at fuga blanditiis quidem asperiores vitae quisquam doloremque provident possimus ut, delectus voluptates
+      non?
+    </p>
+    <p>
+      Magnam, iusto facilis non qui harum culpa error hic perspiciatis odit, nam tempora. Excepturi corrupti ad sequi
+      odit minus minima veniam quia.
+    </p>
+    <p>
+      Aliquam iste praesentium dolores cum nam veniam vitae, quibusdam perferendis? Fuga, tenetur laboriosam vitae quod
+      suscipit at provident doloremque rerum. Aspernatur, sint.
+    </p>
+  </section>
+
+  <!-- Skills section -->
+  <section class="skills" id="skills">
+    <h2 class="skill-header">
+      My Top skills
+    </h2>
+    <div class="skills-wrapper">
+      <div class="first-set animate__animated animate__pulse">
+        <img src="assets/icons/icons8-html-5.svg" alt="" loading="lazy" class="icon icon-card">
+        <img src="assets/icons/icons8-css3.svg" alt="" loading="lazy" class="icon icon-card"><img
+          src="assets/icons/icons8-javascript.svg" alt="" loading="lazy" class="icon icon-card">
+      </div>
+      <div class="second-set animate__animated animate__pulse">
+        <img src="assets/icons/icons8-bootstrap.svg" alt="" loading="lazy" class="icon icon-card">
+        <img src="assets/icons/icons8-react-native.svg" alt="" loading="lazy" class="icon icon-card">
+        <img src="assets/icons/icons8-git.svg" alt="" loading="lazy" class="icon icon-card">
+      </div>
+    </div>
+  </section>
+
+  <!-- projects -->
+  <section class="projects" id="projects">
+    <h2 class="projects-title">Some of my recent projects</h2>
+    <div class="projects-container">
+      <div class="project-container project-card">
+        <img src="assets/images/proj-1.png" alt="receipt-generator" loading="lazy" class="project-pic">
+        <h3 class="project-title">Receipt Generator</h3>
+        <p class="project-details">
+          This application is an online receipt generator created using HTML, CSS, and vanilla JavaScript.
+          It creates a receipt with an automated receipt number.
+        </p>
+        <a href="https://kaneweldingcenter-receipt.netlify.app" target="_blank" class="project-link">Check it out</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <h2>Get in touch</h2>
+    <div class="contact-form-container">
+      <div class="contact-form">
+        <form action="https://formspree.io/f/xoqoeraw" method="POST">
+          <div class="form-control">
+            <label for="name">Name</label>
+            <input type="text" name="sender-name" id="name" placeholder="Enter your name" class="input-field" required>
+          </div>
+          <div class="form-control">
+            <label for="email">Email</label>
+            <input type="email" name="sender-email" id="email" placeholder="Enter your email" class="input-field"
+              required>
+          </div>
+          <div class="form-control">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" placeholder="Enter your name" cols="60" rows="10" class="input-field"
+              required></textarea>
+          </div>
+          <input type="submit" value="Submit" id="submit-btn" class="submit-btn">
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Social accounts - Fixed to the right -->
+  <div class="socials">
+    <a href="https://www.twitter.com/MarcinJesar" target="_blank">
+      <img src="assets/icons/icons8-twitter-circled.gif" alt="Twitter" loading="lazy" class="socicon">
+    </a>
+    <a href="https://www.linkedin.com/in/kyambadde-jesse" target="_blank">
+      <img src="assets/icons/icons8-linkedin-circled.gif" alt="LinkedIn" loading="lazy" class="socicon">
+    </a>
+    <a href="https://www.github.com/jesar-enl" target="_blank">
+      <img src="assets/icons/icons8-github.gif" alt="Github" loading="lazy" class="socicon">
+    </a>
+  </div>
+
+  <i class="scroll-up" id="scroll-up">
+    <img src="assets/icons/icons8-upward-arrow.gif" alt="scroll-up" class="socicon up-arrow">
+  </i>
+
+  <!-- Footer section -->
+  <footer>
+    <p class="copy">&copy; Copyright 2023</p>
+    <p class="copy">
+      Built with &#x2661; by
+      <a href="https://www.linkedin.com/in/kyambadde-jesse" target="_blank" rel="noopener noreferrer">Jesse
+        Kyambadde</a>
+    </p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/ionicons.esm.js" type="module"></script>
+  <script nonmodule src="assets/js/ionicons.js"></script>
+</body>
+
+</html>
